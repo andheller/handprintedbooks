@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         bg="white"
         variant="light"
         expand="md"
-        logo="https://uploads.divjoy.com/logo.svg"
+        logo="handprintedlogo.svg"
       />
 
       <Component {...pageProps} />
@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
         bgImageOpacity={1}
         description="A short description of what you do here"
         copyright="© 2020 Handprinted Books"
-        logo="https://uploads.divjoy.com/logo.svg"
+        logo="handprintedlogo.svg"
       />
     </>
   );
