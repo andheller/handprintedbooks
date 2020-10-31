@@ -39,13 +39,22 @@ a.socialIcon {
   font-size: 20px;
   font-weight: 700;
 }
-.logoTitle img {
-  padding: 0px 15px 1px 0px;
-}
 
 .dropdown.nav-item:hover .dropdown-menu {
   display: block !important;
 }
+
+#logoTitle{
+  display:inline-block;
+  margin:11px 0 0 10px;
+  
+}
+@media screen and (max-width: 371px) {
+  #logoTitle{
+    display:none;
+  }
+}
+
 
 // SEE DOCS FOR MORE:
 // https://bit.ly/2sgFMdb

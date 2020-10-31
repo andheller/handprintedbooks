@@ -19,9 +19,9 @@ function NavbarCustom(props) {
               className="d-inline-block align-top"
               src={props.logo}
               alt="Logo"
-              height="30"
+              height="50"
             />
-            Handprinted Books
+            <span id="logoTitle">Handprinted Books</span>
           </a>
         </Link>
 
@@ -46,7 +46,7 @@ function NavbarCustom(props) {
               <Nav.Link active={false}>Tips</Nav.Link>
             </Link>
 
-            <Nav.Link href="https://forms.gle/5bZbYeTqFroqyerq9" active={false}>
+            <Nav.Link href="https://forms.gle/5bZbYeTqFroqyerq9" target="_blank" active={false}>
               Feedback
             </Nav.Link>
           </Nav>

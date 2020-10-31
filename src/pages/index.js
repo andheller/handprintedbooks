@@ -19,7 +19,7 @@ function IndexPage(props) {
         subtitle=""
         buttonText="See Instructions & Tips"
         buttonColor="primary"
-        image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
+        image="cat.png"
         buttonOnClick={() => {
           // Navigate to pricing page
           router.push("/books");
@@ -31,7 +31,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        image="https://uploads.divjoy.com/undraw-chatting_2yvo.svg"
+        image="cow.png"
       />
       <TestimonialsSection
         bg="white"
