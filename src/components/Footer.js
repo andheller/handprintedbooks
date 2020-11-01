@@ -36,7 +36,7 @@ function Footer(props) {
             </a>
             <a
               className="socialIcon"
-              href="https://instagram.com"
+              href="https://www.instagram.com/handprintedbooks/"
               target="_blank"
               rel="noopener noreferrer"
             >

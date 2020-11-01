@@ -3,8 +3,10 @@ import Section from "components/Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "components/SectionHeader";
 import VideoEmbed from "components/VideoEmbed";
+import FaqSection from "components/FaqSection";
 import CtaSection from "components/CtaSection";
 import { useRouter } from "next/router";
+import Image from "react-bootstrap/Image";
 
 function Tips(props) {
   const router = useRouter();
@@ -29,7 +31,22 @@ function Tips(props) {
           spaced={true}
           className="text-center"
         />
+      {/*
         <VideoEmbed url={props.embedUrl} />
+      */}
+        <figure className="HeroSection__image-container mx-auto">
+         <Image src='moon.png' fluid={true} />
+          </figure>
+        <FaqSection
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title=""
+        subtitle=""
+      />
+      
         <CtaSection
           bg="white"
           textColor="dark"

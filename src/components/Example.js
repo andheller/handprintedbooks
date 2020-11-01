@@ -5,9 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import SectionHeader from "components/SectionHeader";
-import "components/ImageLeft.scss";
+import "components/Example.scss";
 
-function ImageLeft(props) {
+function Example(props) {
   return (
     <Section
       bg={props.bg}
@@ -19,7 +19,7 @@ function ImageLeft(props) {
       <Container>
         <Row className="align-items-center">
           <Col>
-            <figure className="ImageLeft__image-container mx-auto">
+            <figure className="Example-container mx-auto">
               <Image src={props.image} fluid={true} />
             </figure>
           </Col>
@@ -40,4 +40,4 @@ function ImageLeft(props) {
   );
 }
 
-export default ImageLeft;
+export default Example;

@@ -3,6 +3,7 @@ import Tips from "components/Tips";
 
 function TipsPage(props) {
   return (
+   
     <Tips
       bg="white"
       textColor="dark"
@@ -11,9 +12,10 @@ function TipsPage(props) {
       bgImageOpacity={1}
       title="Tips"
       subtitle=""
-      embedUrl="https://www.youtube.com/embed/z9Ul9ccDOqE"
+      embedUrl="https://player.vimeo.com/video/253407838"
     />
   );
 }
+
 
 export default TipsPage;

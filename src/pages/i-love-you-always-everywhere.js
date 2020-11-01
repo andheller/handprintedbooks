@@ -1,14 +1,19 @@
 import React from "react";
 import Header from "components/Header";
 import Instructions from "components/Instructions";
-import ImageLeft from "components/ImageLeft";
+import Example from "components/Example";
 import { useRouter } from "next/router";
+import Head from 'next/head';
 
 function ILoveYouAlwaysEverywherePage(props) {
   const router = useRouter();
 
   return (
     <>
+     <Head>
+        <title>I Love You Always, Everywhere</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header
         bg="white"
         textColor="dark"
@@ -33,25 +38,191 @@ function ILoveYouAlwaysEverywherePage(props) {
         title="Instructions"
         subtitle="This is how we did ours, but it is not the definitive guide to illustrating your book. "
       />
-      <ImageLeft
+
+      <Example
         bg="white"
         textColor="dark"
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a <b>paid plan."
-        image="https://uploads.divjoy.com/undraw-beer_celebration_cefj.svg"
+        title="
+        I love you each 
+        and every day.
+        
+        I love you many
+         different ways.
+        "
+        subtitle="I Love you"
+        image="kite.png"
       />
-      <ImageLeft
+      <Example
         bg="white"
         textColor="dark"
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a <b>paid plan."
-        image="https://uploads.divjoy.com/undraw-beer_celebration_cefj.svg"
+        title=" 
+        I love you in the 
+        morning.
+
+        I love you in the 
+        night."
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when your 
+        pants are tight.
+
+        I love you with all 
+        my might.
+        "
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when you’re close.
+
+        I love you when you’re far.
+        "
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you even when we have to see you from the car."
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you on the screen.
+        "
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you on Halloween."
+        subtitle="I Love you"
+        image="halloween.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when it’s noon.
+        I love you to the moon!"
+        subtitle="I Love you"
+        image="moon.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when you’re out of sight.
+        I love you when we fly a kite."
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you each 
+        and every day.
+        
+        I love you many
+         different ways.
+        "
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when you lose your cool.
+        I love you when we splash in the pool.
+        "
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when we’re having fun.
+        "
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when we’re having none.
+        "
+        subtitle="I Love you"
+        image="kite.png"
+      />
+      <Example
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="
+        I love you when you have crazy hair.
+        I love you always, everywhere.
+        "
+        subtitle="I Love you"
+        image="crazyHair.png"
       />
     </>
   );

@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import SectionHeader from "components/SectionHeader";
 import Features from "components/Features";
 
-function Steps(props) {
+function Books(props) {
   return (
     <Section
       bg={props.bg}
@@ -24,24 +24,18 @@ function Steps(props) {
         <Features
           items={[
             {
-              title: "See our books",
+              title: "I Love You Always, Everywhere",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg",
+                "",
+              image: "crazyHair.png",
               buttonText: "View our books",
             },
             {
-              title: "Illustrate your book",
+              title: "Old MacDonald's Handprint Farm",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "",
               image:
-                "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
-            },
-            {
-              title: "Share with someone",
-              description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg",
+                "rooster.png",
             },
           ]}
         />
@@ -50,4 +44,4 @@ function Steps(props) {
   );
 }
 
-export default Steps;
+export default Books;

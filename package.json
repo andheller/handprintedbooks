@@ -6,14 +6,14 @@
     "divjoy"
   ],
   "dependencies": {
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "next": "10.0.0",
-    "@zeit/next-sass": "0.2.1-canary.4",
-    "node-sass": "4.14.1",
-    "react-hook-form": "4.10.1",
-    "react-bootstrap": "1.0.0-beta.16",
-    "bootstrap": "4.4.1"
+    "@zeit/next-sass": "1.0.1",
+    "bootstrap": "4.5.3",
+    "next": "^10.0.0",
+    "node-sass": "5.0.0",
+    "react": "17.0.1",
+    "react-bootstrap": "1.4.0",
+    "react-dom": "17.0.1",
+    "react-hook-form": "6.10.1"
   },
   "scripts": {
     "dev": "next dev",

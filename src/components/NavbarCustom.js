@@ -28,9 +28,18 @@ function NavbarCustom(props) {
         <Navbar.Toggle aria-controls="navbar-nav" className="border-0" />
         <Navbar.Collapse id="navbar-nav" className="justify-content-end">
           <Nav className="mr-1">
-            <NavDropdown title="Books">
+            <NavDropdown title="Books" renderMenuOnMount={true} 
+            onClick={(e) => {
+              var tarURL = e.target.href
+              if (tarURL.charAt(tarURL.length-1) == '#') {window.location.href = '/books'}
+            }
+              //{window.location.href = '/books'}
+                   
+          }
+
+                >
               <Link href="/old-macdonalds-handprint-farm" passHref>
-                <NavDropdown.Item>
+               <NavDropdown.Item>
                   Old MacDonald's Handprint Farm
                 </NavDropdown.Item>
               </Link>
@@ -54,6 +63,6 @@ function NavbarCustom(props) {
       </Container>
     </Navbar>
   );
-}
+  }
 
 export default NavbarCustom;

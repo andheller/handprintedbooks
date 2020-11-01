@@ -29,21 +29,21 @@ function FeaturesSection(props) {
                 {
                   title: "Choose Your Book",
                   description:
-                    "Imagine a world where you can chat with your friends without having to see their dumb faces.",
+                    "Purchase your book (and stamps if you don't already have some) on Amazon.",
                   iconClass: "fas fa-book",
                   iconColor: "dark",
                 },
                 {
                   title: "Illustrate Your Book",
                   description:
-                    "We embedded a bunch free flash games inside our app. What we lack in quality we make up in quantity.",
+                    "Use your handprints, fingerprints and/or footprints to illustrate your book. Use Doodles and drawings to add even more personality!",
                   iconClass: "far fa-hand-paper",
                   iconColor: "dark",
                 },
                 {
                   title: "Share With Someone you Love",
                   description:
-                    "Our market research told us people like cats so we put some cat icons on our website.",
+                    "Keep your book as a special momento, or turn your book into a special gift by giving it to someone you care about.",
                   iconClass: "far fa-heart",
                   iconColor: "dark",
                 },

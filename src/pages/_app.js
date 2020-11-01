@@ -3,6 +3,7 @@ import "styles/global.scss";
 import NavbarCustom from "components/NavbarCustom";
 import Footer from "components/Footer";
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
