@@ -53,7 +53,7 @@ function ILoveYouAlwaysEverywherePage(props) {
          different ways.
         "
         subtitle="I Love you"
-        image="kite.png"
+        image="manyDifferent.png"
       />
       <Example
         bg="white"
@@ -68,7 +68,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you in the 
         night."
         subtitle="I Love you"
-        image="kite.png"
+        image="morningNight.png"
       />
       <Example
         bg="white"
@@ -84,7 +84,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         my might.
         "
         subtitle="I Love you"
-        image="kite.png"
+        image="tightPants.png"
       />
       <Example
         bg="white"
@@ -98,7 +98,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you when you’re far.
         "
         subtitle="I Love you"
-        image="kite.png"
+        image="closeFar.png"
       />
       <Example
         bg="white"
@@ -109,7 +109,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         title="
         I love you even when we have to see you from the car."
         subtitle="I Love you"
-        image="kite.png"
+        image="car.png"
       />
       <Example
         bg="white"
@@ -121,7 +121,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you on the screen.
         "
         subtitle="I Love you"
-        image="kite.png"
+        image="screen.jpg"
       />
       <Example
         bg="white"
@@ -158,34 +158,18 @@ function ILoveYouAlwaysEverywherePage(props) {
         subtitle="I Love you"
         image="kite.png"
       />
-      <Example
+       <Example
         bg="white"
         textColor="dark"
         size="md"
         bgImage=""
         bgImageOpacity={1}
         title="
-        I love you each 
-        and every day.
-        
-        I love you many
-         different ways.
-        "
-        subtitle="I Love you"
-        image="kite.png"
-      />
-      <Example
-        bg="white"
-        textColor="dark"
-        size="md"
-        bgImage=""
-        bgImageOpacity={1}
-        title="
-        I love you when you lose your cool.
+        I love you when I lose my cool.
         I love you when we splash in the pool.
         "
         subtitle="I Love you"
-        image="kite.png"
+        image="swim.png"
       />
       <Example
         bg="white"
@@ -197,7 +181,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you when we’re having fun.
         "
         subtitle="I Love you"
-        image="kite.png"
+        image="camp.png"
       />
       <Example
         bg="white"
@@ -209,7 +193,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you when we’re having none.
         "
         subtitle="I Love you"
-        image="kite.png"
+        image="campRain.png"
       />
       <Example
         bg="white"

@@ -54,6 +54,11 @@ a.socialIcon {
   padding-right: 65px;
 }
 
+img.img-fluid {
+  display: block;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 767px) {
   .dropdown-menu {
     display: block !important;
