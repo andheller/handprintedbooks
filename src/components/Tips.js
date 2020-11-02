@@ -46,7 +46,7 @@ function Tips(props) {
         title=""
         subtitle=""
       />
-      
+      {/*
         <CtaSection
           bg="white"
           textColor="dark"
@@ -62,6 +62,8 @@ function Tips(props) {
             router.push("/pricing");
           }}
         />
+
+        */}
       </Container>
     </Section>
   );
