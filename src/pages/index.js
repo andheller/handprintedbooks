@@ -23,7 +23,7 @@ function IndexPage(props) {
         bgImageOpacity={1}
         title="I Love You Always, Everywhere"
         subtitle=""
-        buttonText="See Instructions & Tips"
+        buttonText="See Illustration Ideas & Tips"
         buttonColor="primary"
         image="kite.png"
         buttonOnClick={() => {

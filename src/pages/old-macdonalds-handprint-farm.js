@@ -96,7 +96,7 @@ function OldMacdonaldsHandprintFarmPage(props) {
         bgImageOpacity={1}
         title="Old MacDonald Had a Pig"
         subtitle="E-I-E-I-O"
-        image="cow.png"
+        image="pig.png"
       />
       <Example
         bg="white"
@@ -106,7 +106,7 @@ function OldMacdonaldsHandprintFarmPage(props) {
         bgImageOpacity={1}
         title="Old MacDonald Had a Dog"
         subtitle="E-I-E-I-O"
-        image="cow.png"
+        image="dog.png"
       />
       <Example
         bg="white"

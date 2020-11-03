@@ -52,7 +52,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you many
          different ways.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="manyDifferent.png"
       />
       <Example
@@ -67,7 +67,7 @@ function ILoveYouAlwaysEverywherePage(props) {
 
         I love you in the 
         night."
-        subtitle="I Love you"
+        subtitle=""
         image="morningNight.png"
       />
       <Example
@@ -83,7 +83,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you with all 
         my might.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="tightPants.png"
       />
       <Example
@@ -97,7 +97,7 @@ function ILoveYouAlwaysEverywherePage(props) {
 
         I love you when you’re far.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="closeFar.png"
       />
       <Example
@@ -108,7 +108,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         bgImageOpacity={1}
         title="
         I love you even when we have to see you from the car."
-        subtitle="I Love you"
+        subtitle=""
         image="car.png"
       />
       <Example
@@ -120,7 +120,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         title="
         I love you on the screen.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="screen.jpg"
       />
       <Example
@@ -131,7 +131,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         bgImageOpacity={1}
         title="
         I love you on Halloween."
-        subtitle="I Love you"
+        subtitle=""
         image="halloween.png"
       />
       <Example
@@ -143,7 +143,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         title="
         I love you when it’s noon.
         I love you to the moon!"
-        subtitle="I Love you"
+        subtitle=""
         image="moon.png"
       />
       <Example
@@ -155,7 +155,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         title="
         I love you when you’re out of sight.
         I love you when we fly a kite."
-        subtitle="I Love you"
+        subtitle=""
         image="kite.png"
       />
        <Example
@@ -168,7 +168,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you when I lose my cool.
         I love you when we splash in the pool.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="swim.png"
       />
       <Example
@@ -180,7 +180,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         title="
         I love you when we’re having fun.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="camp.png"
       />
       <Example
@@ -192,7 +192,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         title="
         I love you when we’re having none.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="campRain.png"
       />
       <Example
@@ -205,7 +205,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         I love you when you have crazy hair.
         I love you always, everywhere.
         "
-        subtitle="I Love you"
+        subtitle=""
         image="crazyHair.png"
       />
     </>
