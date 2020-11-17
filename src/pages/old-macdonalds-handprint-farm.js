@@ -107,7 +107,7 @@ function OldMacdonaldsHandprintFarmPage(props) {
         title="Old MacDonald Had a Dog"
         subtitle="E-I-E-I-O"
         image="dog.png"
-      />
+      />{/*
       <Example
         bg="white"
         textColor="dark"
@@ -117,7 +117,7 @@ function OldMacdonaldsHandprintFarmPage(props) {
         title="Old MacDonald Had a Sheep"
         subtitle="E-I-E-I-O"
         image="cow.png"
-      />
+      />*/}
       <Example
         bg="white"
         textColor="dark"
@@ -127,7 +127,7 @@ function OldMacdonaldsHandprintFarmPage(props) {
         title="Old MacDonald Had a Chicken"
         subtitle="E-I-E-I-O"
         image="chicken.png"
-      />
+      />{/*
       <Example
         bg="white"
         textColor="dark"
@@ -137,7 +137,7 @@ function OldMacdonaldsHandprintFarmPage(props) {
         title="Old MacDonald Had a Farm"
         subtitle="E-I-E-I-O"
         image="cow.png"
-      />
+      />*/}
     </>
   );
 }

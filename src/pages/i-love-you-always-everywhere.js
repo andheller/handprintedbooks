@@ -25,7 +25,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         buttonText="Buy on Amazon"
         buttonColor="light"
         buttonOnClick={() => {
-          window.open("https://www.amazon.com/dp/B08M2G214P");
+          window.open("https://www.amazon.com/gp/product/B08M2G214P/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08M2G214P&linkCode=as2&tag=handprinted-20&linkId=b4ab61cb94c1f66ec6c5b6281482dde2");
           //router.push('');
         }}
       />
@@ -35,7 +35,7 @@ function ILoveYouAlwaysEverywherePage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Instructions"
+        title="Illustration Ideas"
         subtitle="This is how we did ours, but it is not the definitive guide to illustrating your book. "
       />
 

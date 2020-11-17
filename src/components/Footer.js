@@ -45,7 +45,10 @@ function Footer(props) {
               </span>
             </a>
           </div>
-          <div className="copyright left">{props.copyright}</div>
+          <div className="copyright left">{props.copyright} </div>
+          <div className="copyright right"></div>
+          <div  className="aff left"><a href="/disclosure">Affiliate Disclosure</a></div>
+          
         </div>
       </Container>
     </Section>

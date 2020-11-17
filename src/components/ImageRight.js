@@ -6,9 +6,9 @@ import Col from "react-bootstrap/Col";
 import SectionHeader from "components/SectionHeader";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
-import "components/HeroSection.scss";
+import "components/ImageRight.scss";
 
-function HeroSection(props) {
+function ImageRight(props) {
   return (
     <Section
       bg={props.bg}
@@ -23,16 +23,9 @@ function HeroSection(props) {
             <SectionHeader
               title={props.title}
               subtitle={props.subtitle}
-              size={1}
+              size={3}
               spaced={true}
             />
-            <p>
-              <u>
-                <a href="https://amzn.to/3pMqGFI" target="_blank">
-                  Now available on Amazon
-                </a>
-              </u>
-            </p>
             <Button
               variant={props.buttonColor}
               size="md"
@@ -52,4 +45,4 @@ function HeroSection(props) {
   );
 }
 
-export default HeroSection;
+export default ImageRight;

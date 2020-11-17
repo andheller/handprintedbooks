@@ -58,11 +58,7 @@ function FaqSection(props) {
                 answer:
                   "It’s okay if things overlap.",
               },
-            {
-            question: "Non Toxic stamps for babies",
-              answer:
-                "",
-            },
+            
           ]}
         />
       </Container>
