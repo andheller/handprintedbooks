@@ -34,7 +34,7 @@ function IndexPage(props) {
         bgImageOpacity={1}
         title=""
         subtitle=""
-      />
+      />{/*
       <ImageRight
         bg="white"
         textColor="dark"
@@ -52,6 +52,8 @@ function IndexPage(props) {
           window.open('https://amzn.to/383Fr0p')
         }}
       />
+      */}
+
 
     </>
   );
