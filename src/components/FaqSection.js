@@ -3,6 +3,7 @@ import Section from "components/Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "components/SectionHeader";
 import Faq from "components/Faq";
+import Image from 'next/image'
 
 function FaqSection(props) {
   return (
@@ -21,6 +22,12 @@ function FaqSection(props) {
           spaced={true}
           className="text-center"
         />
+        <Image
+        src="/moon.png"
+        alt="Book Illustration of child and father looking at the moon."
+        width={500}
+        height={500}
+      />
         <Faq
           items={[
             {
