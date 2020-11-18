@@ -1,0 +1,25 @@
+.HeroSection {
+  &__image-container {
+    max-width: 570px;
+  }
+}
+
+.BackgroundImage{
+  display:none;
+}
+
+@media screen and (min-width: 1202px) {
+  .BackgroundImage {
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 44% 57%;
+    display:block
+}}
+h4.font-weight-bold.mb-0.h1{
+  text-align: center !important;
+  padding:5px;
+}
+@media screen and (max-width: 768px) {
+  h4.font-weight-bold.mb-0.h1{
+      font-size:35px;
+  }}
