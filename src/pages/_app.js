@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
         bgImage=""
         bgImageOpacity={1}
         description="A short description of what you do here"
-        copyright="© 2020 Handprinted Books"
+        copyright="© 2021 Handprinted Books"
         logo="handprintedlogo.svg"
       />
     </>
